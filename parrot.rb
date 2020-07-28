@@ -1,4 +1,5 @@
-def parrot("Squawk")
-  puts "#{Squawk}!"
-  return "#{Squawk}!"
+def parrot(language="Squawk!")
+  puts "#{language}!"
+  $stdout.print #{language}!"
+  return #{language}!"
 end
