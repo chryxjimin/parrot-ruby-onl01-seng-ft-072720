@@ -3,3 +3,9 @@ def parrot(language="Squawk!")
   $stdout.print #{language}!"
   return #{language}!"
 end
+
+
+def parrot("Squawk")
+  puts "#{Squawk}!"
+  return "#{Squawk}!"
+end
